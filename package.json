@@ -1,7 +1,7 @@
 {
   "name": "proyecto_pipicucu",
   "version": "1.0.0",
-  "description": "pipicucu limpieza de tapizadps",
+  "description": "pipicucu limpieza de tapizados",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
