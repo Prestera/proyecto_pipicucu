@@ -1,0 +1,28 @@
+.btn-ss{
+    background-color: $color-boton; 
+  border: none; 
+  color: orange; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 10px; 
+}
+.btn-cto {
+    background-color: $color-boton; 
+  border: none; 
+  color: orange; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: wait; 
+  border-radius: 10px; 
+  width: 100%; 
+  box-sizing: border-box; 
+}

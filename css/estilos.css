@@ -1,62 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-}
-.navbar {
-    box-shadow: 2px 2px 5px #000;
-    opacity: .9;
-}
+  margin: 0;
+  padding: 0; }
 
-
-
+footer {
+  background: #1b2a4e;
+  min-height: 100px; }
+  footer p {
+    color: #f3f3f3;
+    text-align: center; }
+  footer a {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3; }
 
 .main-fondo {
-    position: relative;
-    background:url(../img/living.jpg);
-    background-size: cover;
-    min-height: 800px;
-   
-}
-
-.background-overlay {
+  position: relative;
+  background: url(../img/living.jpg);
+  background-size: cover;
+  min-height: 800px; }
+  .main-fondo .background-overlay {
     position: absolute;
-    background:rgba(96, 163, 188, 0.8);
+    background: rgba(96, 163, 188, 0.8);
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-}
-
-
-
+    height: 100%; }
 
 .row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    justify-content: center
-}
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center; }
 
-footer {
-    background: #1b2a4e;
-    min-height: 100px;;
-}
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: .9; }
 
-footer p {
-    color:#f3f3f3;
-    text-align:center;
-}
+.mapa {
+  margin: 20px; }
 
-#iconos a {
-    font-size: 26px;
-    padding: 0 8px;
-    color:#f3f3f3;
-}
+.btn-ss {
+  background-color: rgba(10, 10, 138, 0.692);
+  border: none;
+  color: orange;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px; }
 
-#img-equipo{
-    max-height:30rem !important;
-    width:50%;
-}
+.btn-cto {
+  background-color: rgba(10, 10, 138, 0.692);
+  border: none;
+  color: orange;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: wait;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box; }
+
+@media (min-width: 768px) {
+  #foto_auto {
+    height: 14%; } }
+
+@media (min-width: 992px) {
+  #foto_auto {
+    height: 23%; } }
+
+@media (min-width: 1200px) {
+  #foto_auto {
+    height: 30%; } }
